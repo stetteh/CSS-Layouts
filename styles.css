@@ -1,0 +1,105 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+#container { margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	font-weight: bold;
+	min-width: 700px;
+	color: #000000;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	text-align: center;
+	letter-spacing: 2px;}
+.wrapper{
+	margin: 0 auto;
+	width: 70%;
+  height: 50%;
+}
+header{
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #d3d3d3;
+  position: fixed;
+  margin-bottom: 20px;
+}
+.nav ul {
+  list-style: none;
+  background-color: #80880;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+   display: inline-block;
+    margin-right: -4px;
+}
+.nav a {
+  text-decoration: none;
+  color: #000000;
+  display: block;
+  transition: .3s background-color;
+  padding-left: 20px;
+}
+.nav a.active {
+  color: #FF0000;
+  cursor: default;
+}
+.text{
+	text-align: center;
+	padding: 100px 0px 20px 0px;
+}
+.leftcolumn{
+	float: left;
+	width: 500px;
+	padding-right: 10px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+ .rightcolumn{
+   display: block;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.info{
+	clear: left;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+   padding-top: 10px;
+   padding-bottom: 30px;
+}
+.flex1 {
+  -webkit-flex: 1;
+          flex: 1;
+   padding-top: 2px;
+   padding: 5px 5px 2px 0px;
+ }
+ .flex2 {
+  -webkit-flex: ;
+          flex: ;
+ }
+ .topred {
+  background-color: red;
+  margin: 0px 100px;
+  padding: 3px;
+}
+.h2color{
+	color: #FF0000;
+}
+.info p{
+	text-align: center;
+	letter-spacing: 2px;
+}
+.top{
+	padding-top: 55px;
+}
+
